@@ -1,7 +1,7 @@
 //--------------------------------------------------------------------
 // Modules
 module "ec2" {
-  source  = "app.terraform.io/IH-org-week-3/ec2/AWS"
+  source  = "app.terraform.io/IH-org-week-3/ec2/aws"
   version = "0.0.6"
 
   instance_name = "my_instance"
